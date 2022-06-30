@@ -1,0 +1,33 @@
+@import 'colours';
+@import 'typography';
+
+// MOBILE STYLES
+
+body {
+  background-color: $verydarkblue;
+  color: $paleblue;
+}
+
+main {
+  align-items: center;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.explore-btn {
+  background: $paleblue;
+  border-radius: 100%;
+  color: $verydarkblue;
+  padding: 2rem 1rem;
+}
+
+.moon-img {
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+  width: 300px;
+}
+
+// DESKTOP STYLES
