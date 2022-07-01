@@ -14,3 +14,16 @@
 <script>
 export default {};
 </script>
+
+<style scoped>
+/* ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  padding: 0;
+} */
+</style>

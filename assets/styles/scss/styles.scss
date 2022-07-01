@@ -1,5 +1,5 @@
-@import 'colours';
-@import 'typography';
+@import "colours";
+@import "typography";
 
 // MOBILE STYLES
 
@@ -9,18 +9,70 @@ body {
 }
 
 main {
-  align-items: center;
   color: $white;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+}
+
+img {
+  height: auto;
   max-width: 100%;
 }
 
+ul {
+  padding: 0;
+}
+
+.main-nav,
+.main-nav ul,
+.mob-nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.mob-nav {
+  padding: 2rem 1rem;
+}
+
+.main-nav a,
+.destination-nav a {
+  color: $white;
+  font-family: var(--barlowcon-font);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mob-hide {
+  display: none;
+}
+
+.active {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 0.25rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
 .explore-btn {
+  align-self: center;
   background: $paleblue;
+  border: 1px solid $paleblue;
   border-radius: 100%;
   color: $verydarkblue;
-  padding: 2rem 1rem;
+  font-family: var(--bellefair-font);
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 4rem 2rem;
+}
+
+.homepage {
+  background-image: url(~/assets/home/background-home-mobile.jpg);
+  background-size: cover;
+  height: 100vh;
 }
 
 .moon-img {
@@ -30,4 +82,55 @@ main {
   width: 300px;
 }
 
+// TABLET STYLES
+
+@media (min-width: 768px) {
+  .homepage {
+    background-image: url(~/assets/home/background-home-tablet.jpg);
+  }
+
+  .mob-nav {
+    display: none;
+  }
+
+  .main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+
+  .main-nav li {
+    padding-right: 1rem;
+  }
+
+  .main-nav a {
+    padding-bottom: 1rem;
+  }
+
+  .main-nav span {
+    display: none;
+  }
+
+  .main-content {
+    margin: 0 auto;
+    max-width: 75%;
+    padding-top: 5rem;
+  }
+
+  .explore-btn {
+    background: $white;
+    font-size: 32px;
+    padding: 7rem 4rem;
+  }
+}
+
 // DESKTOP STYLES
+@media (min-width: 900px) {
+  .homepage {
+    background-image: url(~/assets/home/background-home-desktop.jpg);
+  }
+
+  .main-content {
+    flex-direction: row;
+  }
+}
