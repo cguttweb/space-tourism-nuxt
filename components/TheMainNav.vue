@@ -9,7 +9,7 @@
       <nav>
         <ul>
           <li>
-            <nuxt-link class="active" to="/"><span>00</span> Home</nuxt-link>
+            <nuxt-link to="/"><span>00</span> Home</nuxt-link>
           </li>
           <li>
             <nuxt-link to="/destination"><span>01</span> Destination</nuxt-link>

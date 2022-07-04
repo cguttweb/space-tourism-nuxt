@@ -2,7 +2,7 @@
   <div>
     <nav>
       <ul class="destination-nav">
-        <li class="active"><nuxt-link to="moon">Moon</nuxt-link></li>
+        <li><nuxt-link to="/destination">Moon</nuxt-link></li>
         <li><nuxt-link to="/mars">Mars</nuxt-link></li>
         <li><nuxt-link to="/europa">Europa</nuxt-link></li>
         <li><nuxt-link to="/titan">Titan</nuxt-link></li>
@@ -16,14 +16,10 @@ export default {};
 </script>
 
 <style scoped>
-/* ul {
+ul {
   display: flex;
-}
-li {
+  justify-content: space-around;
   list-style: none;
+  padding: 0 2rem;
 }
-a {
-  text-decoration: none;
-  padding: 0;
-} */
 </style>
