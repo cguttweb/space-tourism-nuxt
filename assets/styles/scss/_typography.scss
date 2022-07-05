@@ -65,6 +65,59 @@ p {
 
 @media (min-width: 768px) {
   h1 {
+    font-size: 80px;
+    font-weight: normal;
+  }
+
+  h2 {
+    font-family: var(--barlowcon-font);
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-align: left;
+  }
+
+  h3 {
+    font-size: 55px;
+  }
+
+  h4 {
+    font-size: 32px;
+  }
+
+  h5 {
+    font-size: 28px;
+    letter-spacing: 3px;
+  }
+
+  .body-text {
+    font-size: 18px;
+    line-height: 32px;
+    padding-bottom: 49px;
+  }
+  
+  .destination .further-info {
+    border-top: 1px solid $paleblue;
+    padding-top: 2rem;
+    text-transform: uppercase;
+  }
+  
+  .further-info h3 {
+    font-family: var(--barlowcon-font);
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .further-info p {
+    font-size: 28px;
+  }
+}
+
+
+// DESKTOP STYLES
+
+@media (min-width: 900px) {
+  h1 {
     font-size: 150px;
     font-weight: normal;
   }
@@ -84,14 +137,5 @@ p {
   h5 {
     font-size: 28px;
     letter-spacing: 3px;
-  }
-
-  .body-text {
-    font-size: 18px;
-    line-height: 32px;
-  }
-
-  .destination p {
-    text-transform: uppercase;
   }
 }
