@@ -1,5 +1,5 @@
 <template>
-  <main class="main-background">
+  <main class="destination-background">
     <section class="main-content destination">
       <h2>01 Pick your destination</h2>
       <img class="moon-img" src="~/assets/destination/image-moon.png" alt="moon" />

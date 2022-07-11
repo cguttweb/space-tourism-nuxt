@@ -12,6 +12,7 @@ h3,
 h4 {
   color: $white;
   font-family: var(--bellefair-font);
+  font-weight: normal;
   margin: 0;
   text-transform: uppercase;
   text-align: center;
@@ -59,6 +60,10 @@ p {
   line-height: 25px;
   padding: 0 24px 80px;
   text-align: center;
+}
+
+.crew h1 {
+  font-size: 24px;
 }
 
 // TABLET STYLES
