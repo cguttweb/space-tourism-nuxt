@@ -11,10 +11,14 @@
         history by visiting the Luna 2 and Apollo 11 landing sites.
       </p>
       <div class="further-info">
-        <h3>Avg. distance</h3>
-        <p>384,400 km</p>
-        <h3>Est. travel time</h3>
-        <p>3 days</p>
+        <div>
+          <h3>Avg. distance</h3>
+          <p>384,400 km</p>
+        </div>
+        <div>
+          <h3>Est. travel time</h3>
+          <p>3 days</p>
+        </div>
       </div>
     </section>
   </main>

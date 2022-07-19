@@ -1,12 +1,12 @@
 <template>
   <main class="technology-background">
-    <section class="main-content capsule">
+    <section class="main-content technology">
       <h2>03 Space launch 101</h2>
       <img src="~/assets/technology/image-spaceport-landscape.jpg" alt="space capsule" />
 
       <TechnologyNav />
 
-      <h3>The terminology...</h3>
+      <h3 class="subheading-2">The terminology...</h3>
       <h1>Spaceport</h1>
       <p class="body-text">
         A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by

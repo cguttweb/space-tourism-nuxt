@@ -1,6 +1,6 @@
 <template>
   <main class="technology-background">
-    <section class="main-content capsule">
+    <section class="main-content technology">
       <h2>03 Space launch 101</h2>
       <img
         src="~/assets/technology/image-space-capsule-landscape.jpg"
@@ -9,7 +9,7 @@
 
       <TechnologyNav />
 
-      <h3>The terminology...</h3>
+      <h3 class="subheading-2">The terminology...</h3>
       <h1>Space capsule</h1>
       <p class="body-text">
         A space capsule is an often-crewed spacecraft that uses a blunt-body reentry

@@ -5,7 +5,7 @@
       <img
         class="crew-img"
         src="~/assets/crew/image-anousheh-ansari.png"
-        alt="Douglas Hurley"
+        alt="Anousheh Ansari"
       />
 
       <CrewNav />

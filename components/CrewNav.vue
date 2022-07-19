@@ -1,9 +1,10 @@
 <template>
   <nav>
     <ul class="crew-nav">
-      <li><nuxt-link to="/crew">&nbsp;</nuxt-link></li>
-      <li><nuxt-link to="/engineer">&nbsp;</nuxt-link></li>
-      <li><nuxt-link to="/pilot">&nbsp;</nuxt-link></li>
+      <li><nuxt-link to="/crew">Crew</nuxt-link></li>
+      <li><nuxt-link to="/specialist">Specialist</nuxt-link></li>
+      <li><nuxt-link to="/engineer">Engineer</nuxt-link></li>
+      <li><nuxt-link to="/pilot">Pilot</nuxt-link></li>
     </ul>
   </nav>
 </template>
@@ -15,16 +16,10 @@ export default {};
 <style scoped>
 ul {
   display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-li {
-  /* background-color: #fff; */
-  border: 1px solid #fff;
-  border-radius: 50%;
-  padding: 0.5rem 1rem;
-  margin-right: 1rem;
+  font-size: 30px;
+  /* justify-content: space-around; */
+  /* list-style: none; */
+  padding: 0 2rem;
 }
 
 a {
